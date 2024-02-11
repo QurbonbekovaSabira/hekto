@@ -72,9 +72,7 @@ export const OfferMoneyIcon = () => {
         />
       </g>
       <defs>
-        <clipPath id="clip0_146_3093">
-          <rect width={65} height={65} fill="white" />
-        </clipPath>
+        <rect width={65} height={65} fill="white" />
       </defs>
     </svg>
   );

@@ -32,3 +32,5 @@ export const trendingData = [
     img:img4
   },
 ];
+
+
