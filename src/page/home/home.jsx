@@ -9,6 +9,7 @@ import { DiscountItem } from "./components/discount-item";
 import { TopCategories } from "./components/top-categories";
 import { Newslater } from "./components/newslater";
 import img from "../../assets/img/fashion.png";
+import { LeatestBlog } from "./components/leatest-blog/leatest-blog";
 export const Home = () => {
   return (
     <>
@@ -21,6 +22,7 @@ export const Home = () => {
       <DiscountItem />
       <TopCategories />
       <Newslater />
+      <LeatestBlog/>
       <section className="pb-[96px] pt-[96px]">
         <div className="container ">
           <img
@@ -30,6 +32,7 @@ export const Home = () => {
           />
         </div>
       </section>
+      <LeatestBlog/>
     </>
   );
 };

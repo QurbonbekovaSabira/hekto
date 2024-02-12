@@ -1,7 +1,12 @@
 import React from 'react'
+import { FooterFirstBox } from './components/footer-firstBox'
+import { FooterSecondBox } from './components/footer-second-box';
 
 export const Footer = () => {
   return (
-    <div>Footer</div>
+   <>
+   <FooterFirstBox/>
+   <FooterSecondBox/>
+   </>
   )
 }
