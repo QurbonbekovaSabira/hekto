@@ -11,9 +11,9 @@ export const LeatestProduct = () => {
     setState(product);
   };
   return (
-    <section>
+    <section >
       <div className="container">
-        <h2 className="text-text-color mb-[19px] text-center text-5xl font-bold">
+        <h2 className="mb-[19px] text-center text-5xl font-bold text-text-color">
           Leatest Products
         </h2>
         <div className="mb-[62px] flex items-center justify-center gap-[58px]">

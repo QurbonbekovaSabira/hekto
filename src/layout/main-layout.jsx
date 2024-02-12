@@ -1,14 +1,17 @@
 import React from "react";
 import { Header } from "./header";
 import { Footer } from "./footer";
-export const MainLayout = ({children}) => {
+import { Outlet } from "react-router-dom";
+export const MainLayout = ({ children }) => {
   return (
     <>
       <div className="wrapper">
         <header>
           <Header />
         </header>
-        <main>{children}</main>
+        <main>
+          <Outlet />
+        </main>
       </div>
       <footer>
         <Footer />

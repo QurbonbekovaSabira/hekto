@@ -22,7 +22,6 @@ export const Home = () => {
       <DiscountItem />
       <TopCategories />
       <Newslater />
-      <LeatestBlog/>
       <section className="pb-[96px] pt-[96px]">
         <div className="container ">
           <img
@@ -32,7 +31,7 @@ export const Home = () => {
           />
         </div>
       </section>
-      <LeatestBlog/>
+      <LeatestBlog />
     </>
   );
 };
