@@ -13,6 +13,7 @@ export default {
       colors: {
         primary: "#7E33E0",
         secondary: "#FB2E86",
+        "matt-purple": " #9877e7",
         "fashion-fuchsia": "#f701a8",
         "deadly-depths": " #0d0e43",
         "space-colonization": "#b1afbbb8",
