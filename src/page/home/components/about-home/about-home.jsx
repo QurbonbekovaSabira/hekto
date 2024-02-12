@@ -19,6 +19,9 @@ export const AboutHome = () => {
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={4}
+          style={{
+            "--swiper-pagination-color": "#FB2E86",
+          }}
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
