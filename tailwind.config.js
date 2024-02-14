@@ -16,6 +16,7 @@ export default {
         "matt-purple": " #9877e7",
         "fashion-fuchsia": "#f701a8",
         "deadly-depths": " #0d0e43",
+        "shadowdancer-block": "#101750",
         shadowdancer: "#0d134e",
         "space-colonization": "#b1afbbb8",
         "text-color": "#151875",
