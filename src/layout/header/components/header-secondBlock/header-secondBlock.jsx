@@ -11,7 +11,7 @@ export const HeaderSecondBlock = () => {
         <div className="flex gap-[35px]">
           {headerData?.map((item) => (
             <Link
-              to={item.element}
+              to={item.path}
               key={item.element}
               className="text-base font-normal text-deadly-depths hover:text-secondary"
             >

@@ -1,6 +1,6 @@
 export const headerData = [
-  { element: "Home" },
-  
+  { element: "Home", path: "/" },
+
   { element: "Pages", path: "/pages" },
   {
     element: "Products",
